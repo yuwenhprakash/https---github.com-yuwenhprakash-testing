@@ -1,0 +1,52 @@
+.hidden{
+    2
+    display:none;
+    3
+    }
+    4
+    ​
+    5
+    ​
+    6
+    .show_image{
+    7
+    position:fixed;top:0;right:0;bottom:0;left:0;
+    8
+    background: rgba(0,0,0,0.5) url(/img/spinner.gif) no-repeat 50% 50%;
+    9
+    z-index:100;
+    10
+    background-size: 5ex;
+    11
+    }
+    12
+    ​
+    13
+    ​
+    14
+    <div class="show_image"></div>
+    15
+    <div class="hidden box"> Your actual content </div>
+    16
+    ​
+    17
+    ​
+    18
+    $('.box').removeClass("hidden");
+    19
+    $('.show_image').addClass("hidden");
+    20
+    ​
+    21
+    ​
+    22
+     $(window).load(function() {
+    23
+        //everything is loaded
+    24
+    });
+    25
+    ​
+    26
+    ​
+    
