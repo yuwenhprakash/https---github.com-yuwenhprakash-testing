@@ -1,3 +1,4 @@
+<script src="java.js"></script>
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '#image-slider', {
           cover      : true,
