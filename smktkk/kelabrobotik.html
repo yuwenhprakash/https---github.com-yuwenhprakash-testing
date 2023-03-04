@@ -21,12 +21,46 @@
       <li><a href="geleri.html">geleri gambar</a></li>
     </ul>
   </nav>
-  
+< <article>
+  <h1>Ke</h1>
+  <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</article>
+
+
+
+
+
+
+
+  <div class="footer">
+    <p>Copyright © 2023 KelabRobotik@<strong>SMKTKK</strong></p>
+  </div>
 
 </body>
 </html>
   
 <style>
+
+article {
+  color: white;
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #15008f82;
+  height: 300px; /* only for demonstration, should be removed */
+  
+}
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(2, 0, 37);
+   color: white;
+   text-align: center;
+}
 /* Navbar */
 nav {
   display: flex;
@@ -77,7 +111,7 @@ nav {
 }
 
 .menu-icon span {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   display: block;
   height: 2px;
   position: absolute;
@@ -87,7 +121,7 @@ nav {
 
 .menu-icon span::before,
 .menu-icon span::after {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   content: '';
   display: block;
   height: 100%;
@@ -133,3 +167,8 @@ body {
   background-image: url("Computer-screen-code-glitch-animation-gif-background-free.gif");
 }
 
+@media (max-width: 600px) {
+  nav, article {
+    width: 90%;
+    height: auto;
+  }
